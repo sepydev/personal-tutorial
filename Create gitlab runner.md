@@ -49,11 +49,13 @@ docker restart $AIASSET_NAME
 run this command
 
 ```
-sudo bash ./setup-runner.sh dashboard_api_cicd_r https://gitlab.com/ {replace with gitlab runner token}
+sudo bash ./setup-runner.sh {runner_name} {url like this https://gitlab.com/} {replace with gitlab runner token}
 
 ```
-
-
+ sample 
+ ```
+ sudo bash ./setup-runner.sh dashboard_api_cicd_r https://gitlab.com/ GR1348941k28zC6MQd-zy91dUzau1
+ ```
 
 
 
