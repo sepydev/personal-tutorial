@@ -15,7 +15,8 @@ install and start postgresql with these commands.
 
 after that switch to postgre user to make some changes to the database
 
-``` sudo su - postgres
+``` 
+ sudo su - postgres
  psql
  postgres=# CREATE USER jiradbadmin WITH PASSWORD 'password';
  postgres=# CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;
