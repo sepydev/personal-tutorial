@@ -27,9 +27,9 @@ Yes [y, Enter], No [n]
 no
 
 
-۱. در مرحله اول باید یکی از فایل های Jira به نام atlassian-extras-3.2.jar را با یک فایل دستکاری شده جایگزین کنیم.
-۲. مرحله دوم،‌ وارد کردن شماره سریال جعلی برای Jira Software در هنگام بالا آمدن Jira برای اولین بار است.
-۳. مرحله سوم، وارد کردن شماره سریال جعلی برای Jira Core در تنظیمات پنل Jira است.
+۱. در مرحله اول باید یکی از فایل های Jira به نام atlassian-extras-3.2.jar را با یک فایل جایگزین کنیم.
+۲. مرحله دوم،‌ وارد کردن شماره سریال برای Jira Software در هنگام بالا آمدن Jira برای اولین بار است.
+۳. مرحله سوم، وارد کردن شماره سریال برای Jira Core در تنظیمات پنل Jira است.
 ```
 $ sudo rm -f /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/atlassian-extras-3.2.jar ; sudo wget http://bayanbox.ir/download/875654641841270819/atlassian-extras-3.2.jar -P /opt/atlassian/jira/atlassian-jira/WEB-INF/lib/
 ```
@@ -57,8 +57,8 @@ $ /etc/init.d/iptables restart
 AAABmQ0ODAoPeJyFU9FOq0AQfecrSHymAa5V22QTDXAjBqiBauLjSqft3sDuZna32r+X0jairtzHPefMzJmdmYu/yNyc7t3g2g2u5uHNfDp10zJeuqEfzJwIgWomeEw1kAPi+VMvuHYiwTWtdUFbIC1sV2wb/Lma3W5ayppJLdqzIMk7gCgjpUB9i1QLRXkvWOCGcqb67KQcEBXgDjCNSX4ZL7x7v8i82f1d7GWp/+JUSWHFHw3WW6rgu8/CtK+Ai/WTAlTk0nf+MaQTOypRrEytJ4eHp8Rav1GEn9quI66BU15D8i4Z7k81Q/9QM/SdjNXA1S9kDKpGJvuuH7pCbnUqdPRQaYoakKxpo2DM1lfhBgH4VkgJOOl+ne2AaDSnBD8Ae8ahbJgPum5RIlPDFFbQntcq5aYtRQORMFwTLxiL/y49fe9yL6Ffv2iR50kZpXfZF9sjsr7Y/3i7mZGo89hXrB9uUiyT8rFMq8Rmy6IauvqNHjVlCWqOzHO3ugcmPJvsritLY+uBmdfPBe3nlexoY45n2i/bB3IidwkwLAIUYwdtWez2k7o6gccl3hU6CQpb4P4CFCQfFJDwdEBH3h7YcMhS5z+pKtUoX02jn
 ```
 
-مرحله سوم کرک کردن برنامه
-در این مرحله باید یک شماره سریال جعلی را در تنظیمات دشبورد برای Jira Core وارد کنیم.
+مرحله سوم رجیستر کردن برنامه
+در این مرحله باید یک شماره سریال را در تنظیمات دشبورد برای Jira Core وارد کنیم.
 
 از منوی بالای دشبورد، تصویر چرخ‌دنده و سپس گزینه Application را انتخاب کنید.
 در پایین صفحه و زیر بخش Jira Core بر روی گزینه Paste licence کلیک کنید.
