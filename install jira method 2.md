@@ -1,4 +1,5 @@
-# jira-crack
+# jira Install
+
 ## tested on Version (8.19 , V8.21 , V8.22) bare or via docker image
 
 
@@ -60,5 +61,5 @@ AAAB+g0ODAoPeJyNU12PojAUfedXkOzjBmzRwY+kySriyIo6DrCT9a3iVTrD17bFGffXLwhmPjRmE15o
   ```
 
   i've tried contacting Jira's team to fix this but hasn't got a response yet  (: <br />
-  if your still not able to crack jira with this code. it may have been banned by them. instead you can use this repo [atlassian-agent](https://gitee.com/pengzhile/atlassian-agent)  (all credits to him) and use atlassian-agent to generate a new license Code which will activate Jira until 2089.
-thanks to Mr. Saeid Hosseini  for finding this repo.
+  if your still not able to active jira with this code. it may have been banned by them. instead you can use this repo [atlassian-agent](https://gitee.com/pengzhile/atlassian-agent)  (all credits to him) and use atlassian-agent to generate a new license Code which will activate Jira until 2089.
+
