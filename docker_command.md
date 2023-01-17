@@ -61,3 +61,16 @@ docker container prune
 ```
 docker image prune
 ```
+
+
+```
+docker image ls 
+docker image rm sha 
+docker run -p host_port:docker_port
+docker start sha
+docker stop sha
+docker kill sha
+docker run -it --name new_name 
+docker build -t new_tag root_Docker_file
+
+```
