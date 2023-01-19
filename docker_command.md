@@ -72,5 +72,6 @@ docker stop sha
 docker kill sha
 docker run -it --name new_name 
 docker build -t new_tag root_Docker_file
+docker commit sha image_name:tag
 
 ```
