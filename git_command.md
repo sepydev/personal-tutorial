@@ -1,11 +1,11 @@
-#Setup git environment
-##Set Username
+# Setup git environment
+## Set Username
 Assign a username which will be used for each commit globally:
 ```
 git config --global user.name "sepydev"
 ```
 
-##Set Email Address
+## Set Email Address
 Assign an email address which will be used for each commit globally:
 ```
 git config --global user.email "mrprocs@gmail.com"
