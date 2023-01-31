@@ -1,4 +1,4 @@
-# how to config gitlab runner
+# How to config gitlab runner
 
 ## Create new file setup-runner.sh with this content
 
