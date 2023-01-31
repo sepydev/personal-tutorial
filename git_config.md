@@ -1,14 +1,27 @@
 # Gitlab config to connect with ssh
 
-## add new host to ssh known hosts
+### create new ssh key 
 ```
-ssh-keyscan -H gs.parstechai.ir >> ~/.ssh/known_hosts
+ssh-keygen -t rsa -b 2048 -C "comment"
+cat ~/.ssh/id_ed....pub
 ```
+### Copy public key to the gitlab ssh config
+
+## add new host to ssh known hosts (linux)
+```
+ssh-keyscan -H gitlab.company.com >> ~/.ssh/known_hosts
+```
+
+## add new host to ssh known hosts (windows)
+```
+ssh-keyscan -H gitlab.company.com >> /c/Users/<user name>/.ssh/known_hosts
+```
+
 # Github config to connect with ssh
 
 ### create new ssh key 
 ```
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t rsa -b 2048 -C "comment"
 cat ~/.ssh/id_ed....
 ```
 
