@@ -1,5 +1,7 @@
+# how to config gitlab runner
 
-Create new file setup-runner.sh with this content
+## Create new file setup-runner.sh with this content
+
 
 ```
 #!/bin/sh
