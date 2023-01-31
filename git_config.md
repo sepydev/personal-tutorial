@@ -1,5 +1,11 @@
 # Gitlab config to connect with ssh
 
+### create new ssh key 
+```
+ssh-keygen -t ed25519 -C "comment"
+cat ~/.ssh/id_ed....
+```
+
 ## add new host to ssh known hosts
 ```
 ssh-keyscan -H gs.parstechai.ir >> ~/.ssh/known_hosts
@@ -8,7 +14,7 @@ ssh-keyscan -H gs.parstechai.ir >> ~/.ssh/known_hosts
 
 ### create new ssh key 
 ```
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t rsa -b 2048 -C "comment"
 cat ~/.ssh/id_ed....
 ```
 
