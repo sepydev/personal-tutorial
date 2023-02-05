@@ -33,6 +33,39 @@ git reset --hard <remote>/<branch>
 git branch --all
 ```
 
+## git stash 
+
+### git stash without message 
+```
+git stash
+```
+### git stash with message 
+```
+git stash save  "message"
+```
+### stash untrack files 
+``` 
+git stash save -u "message"
+
+### list of stash 
+```
+git stash list 
+```
+
+### apply stash 
+#### apply latest stash 
+```
+git stash pop
+```
+### apply stash number one ( base on git stash list) 
+'''
+git stash apply stash@{1}
+```
+
+
+
+
+
 
 # Git WorkFlow
 ### The following image summarizes the basic git workflow:
