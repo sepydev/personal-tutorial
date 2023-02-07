@@ -46,6 +46,7 @@ git stash save  "message"
 ### stash untrack files 
 ``` 
 git stash save -u "message"
+```
 
 ### list of stash 
 ```
